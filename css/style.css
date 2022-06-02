@@ -3,7 +3,11 @@
 body {
   font-family: Roboto;
 }
-
+/* top bar css  */
+.top-bar .row .social > a {
+  text-decoration: none;
+  margin-left: 6px;
+}
 /* nav bar css  start */
 .logo {
   font-size: 36px;
@@ -14,3 +18,17 @@ body {
   gap: 10px;
 }
 /* nav bar css end  */
+
+/* media query  */
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 24px;
+  }
+  .logo > i {
+    display: none;
+  }
+  .top-bar {
+    padding-top: 10px;
+  }
+}
