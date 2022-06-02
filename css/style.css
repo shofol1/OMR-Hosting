@@ -3,3 +3,14 @@
 body {
   font-family: Roboto;
 }
+
+/* nav bar css  start */
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+/* nav bar css end  */
