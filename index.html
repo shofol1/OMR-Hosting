@@ -83,8 +83,16 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Hosting</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hosting
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Domain</a>
@@ -109,9 +117,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fa-solid fa-circle-user"></i>
+                <li class="nav-item userContainer">
+                  <a class="nav-link user" href="#">
+                    <i class="fa-solid fa-circle-user user-icon "></i>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -129,7 +137,42 @@
       <!-- main menu  end -->
     </header>
     <!-- header end  -->
+<!-- main section  start  -->
+<main>
+  <!-- hero section start  -->
+  <div class="hero container mt-4">
+<div class="row d-flex align-items-center">
+  <div class="col-md-6">
+    <h1>Build your dream website with OMRHost</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit atque qui ipsa hic modi repudiandae similique quae quasi nesciunt vitae recusandae tenetur cum et maiores, quidem velit corporis eius nobis!</p>
+     <a href="" class="btn btn-info text-white" >Learn More</a>
+  </div>
+  <div class="col-md-6">
+    <img src="images/cloud.png" class="img-fluid" alt="">
+  </div>
+</div>
+  </div>
+  <!-- hero section End  -->
 
+  <!-- hosting type section start  -->
+  <div class="hotingType">
+    <div class="row">
+      <div class="col-md-2 col-12">
+        <i class="fa-solid fa-server hosting-icon"></i>
+       <div class="type-des pt-4 ps-3">
+        <h4>Shared Hosting</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, error.</p>
+      </div>
+       </div>
+    <div class="col-md-2 col-12"> col</div>
+    <div class="col-md-2 col-12"> col</div>
+    <div class="col-md-2 col-12">col</div>
+    <div class="col-md-2 col-12">col</div>
+    </div>
+  </div>
+  <!-- hosting type section End  -->
+</main>
+<!-- main section  End  -->
     <!-- bootstrap js  -->
     <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
