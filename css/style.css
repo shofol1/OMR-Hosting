@@ -66,104 +66,145 @@ body {
   border-radius: 50%;
   padding: 10px;
 }
-.hotingType{
+.hotingType {
   position: relative;
 }
-.hotingType .row .type-des{
+.hotingType .row .type-des {
   transition: 0.5s;
 }
-.hotingType .row .card::before{
-  content: '';
+.hotingType .row .card::before {
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   transition: 0.5s;
 }
-.hotingType .row .card:hover::before{
+.hotingType .row .card:hover::before {
   background-color: #ffff;
-  transform:scale(1.15);
+  transform: scale(1.15);
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.hotingType .row .card:hover .hosting-icon{
-z-index: 2;
+.hotingType .row .card:hover .hosting-icon {
+  z-index: 2;
 }
 .hotingType .row .card:hover .type-des {
   z-index: 2;
   color: #000;
 }
 /* newsletter css  */
-.newsletter .input-group{
+.newsletter .input-group {
   position: relative;
 }
-.newsletter .input-group>select{
+.newsletter .input-group > select {
   position: absolute;
   right: 0;
   width: 100px;
   height: 38px;
   outline: none;
   border: none;
-background-color: #000;
-color: #fff;
+  background-color: #000;
+  color: #fff;
 }
-.newsletter .btn-info{
+.newsletter .btn-info {
   background-color: #139ee6;
 }
-.newsletter .btn-info:hover{
+.newsletter .btn-info:hover {
   background-color: #0874a9c9;
 }
 .row {
-  --bs-gutter-x:0
+  --bs-gutter-x: 0;
 }
 /* feature css  */
-.feature-top-heading{
+.feature-top-heading {
   font-size: 16px;
   font-weight: 100;
 }
-.feature-heading{
+.feature-heading {
   font-size: 48px;
 }
-.feature-icon{
+.feature-icon {
   color: #139ee6;
   font-size: 30px;
 }
-.feature-hr{
+.feature-hr {
   color: #139ee6;
   border: 2px solid #139ee6;
   width: 40px;
 }
-.feature-title{
+.feature-title {
   font-size: 18px;
 }
-.feature-des{
+.feature-des {
   font-size: 14px;
   font-weight: 400;
 }
 /* pricing section css  */
-.uncheck-icon{
+.price-heading {
+  font-size: 48px;
+}
+.price-top-heading {
+  font-size: 16px;
+  font-weight: 100;
+}
+.priceContainer {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.uncheck-icon {
   font-size: 16px;
   color: #999999;
 }
-.check-icon{
+.check-icon {
   color: #139ee6;
   font-size: 16px;
   border: 1px solid #139ee6;
 }
-.price-info-text{
+.price-info-text {
   font-size: 16px;
 }
-.price-icon-server-container{
-  padding: 20px;
-  border-radius: 50%;
+.server-price-top {
+  background-color: #000;
 }
-.featureContainer .price-server-icon{
+.price-server-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: -40px;
+  margin-left: 110px;
+}
+.price-server-icon > i {
   font-size: 30px;
-  padding: 20px ;
-  border: 1px dotted #000!important;
+  position: absolute;
+  color: #fff;
+  border: 2px dotted #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 10px;
   border-radius: 50%;
-
+  top: 5px;
+  left: 6px;
 }
-/* media query 
+.btn-order {
+  background-color: #139ee6;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+  padding: 10px 30px;
+}
+.btn-order:hover {
+  background-color: #000;
+}
+#btn-order:hover ~ .price-server-icon {
+  background-color: #139ee6;
+}
+/* media query  */
 
 @media screen and (max-width: 480px) {
   .logo {
