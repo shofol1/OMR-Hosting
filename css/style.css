@@ -92,6 +92,7 @@ z-index: 2;
   z-index: 2;
   color: #000;
 }
+/* newsletter css  */
 .newsletter .input-group{
   position: relative;
 }
@@ -111,8 +112,56 @@ color: #fff;
 .newsletter .btn-info:hover{
   background-color: #0874a9c9;
 }
-.newsletter .row {
+.row {
   --bs-gutter-x:0
+}
+/* feature css  */
+.feature-top-heading{
+  font-size: 16px;
+  font-weight: 100;
+}
+.feature-heading{
+  font-size: 48px;
+}
+.feature-icon{
+  color: #139ee6;
+  font-size: 30px;
+}
+.feature-hr{
+  color: #139ee6;
+  border: 2px solid #139ee6;
+  width: 40px;
+}
+.feature-title{
+  font-size: 18px;
+}
+.feature-des{
+  font-size: 14px;
+  font-weight: 400;
+}
+/* pricing section css  */
+.uncheck-icon{
+  font-size: 16px;
+  color: #999999;
+}
+.check-icon{
+  color: #139ee6;
+  font-size: 16px;
+  border: 1px solid #139ee6;
+}
+.price-info-text{
+  font-size: 16px;
+}
+.price-icon-server-container{
+  padding: 20px;
+  border-radius: 50%;
+}
+.featureContainer .price-server-icon{
+  font-size: 30px;
+  padding: 20px ;
+  border: 1px dotted #000!important;
+  border-radius: 50%;
+
 }
 /* media query 
 
