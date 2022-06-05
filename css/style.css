@@ -140,6 +140,41 @@ body {
   font-weight: 400;
 }
 /* pricing section css  */
+.priceGrid {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.server-price-top {
+  position: relative;
+}
+.server-price-top span {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  overflow: hidden;
+}
+.server-price-top span::before {
+  content: "Recommended";
+  width: 150%;
+  height: 40px;
+  position: absolute;
+  background-color: #fff;
+  transform: rotate(-45deg) translateY(-20px);
+  top: 44px;
+  left: -45px;
+  align-items: center;
+  color: #139ee6;
+  font-weight: 500;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 .price-heading {
   font-size: 48px;
 }
@@ -149,6 +184,9 @@ body {
 }
 .priceContainer {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.price-info {
+  padding: 20px;
 }
 .uncheck-icon {
   font-size: 16px;
@@ -252,6 +290,30 @@ body {
 .tab-content {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
+}
+/* about us css  */
+.aboutUsTitle {
+  font-size: 48px;
+}
+.aboutSubTitle {
+  font-size: 16px;
+  font-weight: 100;
+}
+.aboutGrid {
+  background-color: #139ee6;
+  color: #fff;
+}
+.aboutGrid:hover {
+  background-color: #000;
+}
+.about-number {
+  font-size: 78px;
+  color: #29a8e9;
+}
+.aboutTopDes {
+}
+.number-one-grid {
+  margin-top: 120px;
 }
 /* footer css  */
 .footerbtn {
