@@ -204,6 +204,66 @@ body {
 #btn-order:hover ~ .price-server-icon {
   background-color: #139ee6;
 }
+
+/* complete projects css  */
+.completeTitle {
+  font-size: 20px;
+  font-weight: 300;
+}
+.completeNumber {
+  font-size: 48px;
+  font-weight: 500;
+}
+/* offer section css  */
+#myTab.nav-tabs {
+  border: none;
+  --bs-nav-tabs-border-width: 0;
+}
+#myTab.nav-tabs > a {
+  font-size: 30px;
+  color: #139ee6;
+}
+.offerContainer.nav {
+  color: #999999;
+}
+.offerContainer .nav .nav-item .active:hover {
+  border-bottom: 1px solid #139ee6;
+}
+
+.tooltip-inner {
+  background-color: #139ee6;
+  padding: 10px 30px;
+}
+.tabs-quotes-des {
+  color: #999999;
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+}
+.tabs-quotes-btn {
+  text-decoration: none;
+  color: #139ee6;
+}
+.tabs-quotes-icon {
+  color: #139ee6;
+}
+.tabLinks {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tab-content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+/* footer css  */
+.footerbtn {
+  color: #ffff;
+  text-decoration: none;
+}
+.footerlogoicon {
+  color: #139ee6;
+}
+.footer .navbar-brand {
+  font-size: 30px;
+}
 /* media query  */
 
 @media screen and (max-width: 480px) {
