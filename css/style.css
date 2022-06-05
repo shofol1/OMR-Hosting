@@ -264,6 +264,111 @@ body {
 .footer .navbar-brand {
   font-size: 30px;
 }
+.usefullLinkText {
+  font-size: 18px;
+}
+.usefullLinks {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.subscriptionDes {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.paymentcard {
+  font-size: 30px;
+}
+/* location css  */
+
+.location {
+  background-color: #139ee6;
+  color: #fff;
+  padding: 10px;
+}
+.loactionIcon {
+  font-size: 36px;
+}
+.locationText {
+  font-size: 24px;
+  font-weight: 300;
+}
+.locationAddress {
+  font-size: 14px;
+  font-weight: 100;
+}
+/* slider design css  */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.reviewIcon {
+  color: #ddd;
+  font-size: 70px;
+  position: relative;
+}
+.reviewTitle {
+  position: absolute;
+  top: 51px;
+  left: 29px;
+  font-size: 24px;
+}
+.rating > i {
+  color: #ddd;
+}
+.reviewDes {
+  border-left: 2px solid #139ee6;
+  color: #000;
+  font-weight: 100;
+}
+.profile-reviewer {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+.reviewerName {
+  font-size: 16px;
+  font-weight: 400;
+}
+.reviewerAddress {
+  font-size: 14px;
+  font-weight: 100;
+}
+.cards-wrapper {
+  position: relative;
+}
+.carousel-control-prev {
+  position: absolute;
+  top: 415px;
+  left: 580px;
+}
+.carousel-control-next {
+  position: absolute;
+  top: 415px;
+  right: 511px;
+}
+.cards-wrapper .card {
+  border: none;
+}
+.carousel .carousel-control-prev-icon {
+  background-image: url("");
+}
+.slider-slash {
+  position: absolute;
+  left: 698px;
+  top: 402px;
+}
+.prev-arrow {
+  width: 20px;
+}
+.next-arrow {
+  width: 20px;
+}
 /* media query  */
 
 @media screen and (max-width: 480px) {
